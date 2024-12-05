@@ -1,0 +1,43 @@
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+.dark_overlay {
+    background-color: black;
+    opacity: 0.9; /* Controls how dark the overlay is */
+    z-index: -1; /* Make sure it stays behind content */
+  }
+.bg{
+    background-image: url("https://www.treehugger.com/thmb/nSp8ESJ1N6zq_bsTVL_MoSrKAqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1273584292-cbcd5f85f4c646d58f7a7fa158dcaaeb.jpg");
+}
+#plan{
+    width: 300px;
+}
+#Center{
+    text-align: center;
+}
+.font{
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 3px;
+    margin: 5px 0;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
